@@ -6,56 +6,86 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
-    <link href="/home/jonathan/Desktop/repos/Landing-Page/styles.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
 </head>
 
 <body>
-    <!-- 1ST SECTION -->
-    <div class="section-one">
-        <h3>
-            <header>Header Logo</header>
-        </h3>
-        <ul>
-            <li>header link one</li>
-            <li>header link two</li>
-            <li>header link three</li>
-        </ul>
-        <h1>This website is awesome</h1>
-        <p class="text">This website has some subtext that goes here under the<br>main title. It's a smaller font and
-            the color is lower<br>contrast</p>
-        <p>this is a placeholder for an image</p>
-        <button type="button">Sign up</button>
+    <div class="first-section">
+        <div class="navbar">
+            <div class="navbar-left">
+                <p class="header-logo">Header Logo</p>
+            </div>
+            <div class="navbar-right">
+                <ul>
+                    <li class="header-link">header link one</li>
+                    <li class="header-link">header link two</li>
+                    <li class="header-link">header link three</li>
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content-left">
+                <h1>This website is <br>awesome</h1>
+                <p class="subtext">This website has some subtext that goes here under the<br> main title. It's a smaller
+                    font and the color
+                    is lower <br> contrast.</p>
+                <button class="first-button">Sign Up</button>
+            </div>
+            <div class="content-right">
+                <img src="imgs/Monsoon.jpg" alt="Monsoon Image">
 
-    </div>
-    <!-- 2ND SECTION -->
-    <div class="section-two">
-        <h2>Some random information.</h2>
-        <div></div>
-        <p>this is some subtext<br>under an illustration<br>or image</p>
-        <div></div>
-        <p>this is some subtext<br>under an illustration<br>or image</p>
-        <div></div>
-        <p>this is some subtext<br>under an illustration<br>or image</p>
-        <div></div>
-        <p>this is some subtext<br>under an illustration<br>or image</p>
-    </div>
-    <!-- 3RD SECTION -->
-    <div>
-        <p>This is an inspiring quote, or a testimonial from a <br>customer. Maybe it's just filling up space, or
-            maybe<br>people will actually read it. Who knows? All I know<br>is that it looks nice.</p>
-        <br>
-        <p>-Thor, God of Thunder</p>
-    </div>
-    <!-- 4TH SECTION -->
-    <div>
-        <div>
-            <h4>Call to action! It's time!</h4>
-            <br>
-            <p>Sign up for our product by clicking that button right over there!</p>
-            <button type="button">Sign up</button>
-
+            </div>
         </div>
     </div>
+    <div class="second-section">
+        <h2>Some random information.</h2>
+        <div class="blue-boxes">
+            <div class="blue-box-main">
+                <div class="blue-box"></div>
+
+                <p class="blue-box-subtext">this is some subtext <br>under an illustration<br>or image</p>
+            </div>
+
+            <div class="blue-box-main">
+                <div class="blue-box"></div>
+
+                <p class="blue-box-subtext">this is some subtext <br>under an illustration<br>or image</p>
+            </div>
+            <div class="blue-box-main">
+                <div class="blue-box"></div>
+
+                <p class="blue-box-subtext">this is some subtext <br>under an illustration<br>or image</p>
+            </div>
+            <div class="blue-box-main">
+                <div class="blue-box"></div>
+
+                <p class="blue-box-subtext">this is some subtext <br>under an illustration<br>or image</p>
+            </div>
+        </div>
+    </div>
+    <div class="third-section">
+        <h3 class="quote">This is an inspiring quote, or a testimonial from a<br>customer. Maybe it's just filling up
+            space, or
+            maybe<br> people will actually read it. Who Knows? All I know<br> is that it looks nice.</h3>
+        <br>
+        <p class="end-quote">-Thor, God of Thunder</p>
+    </div>
+    <div class="fourth-section">
+        <div class="call-section">
+            <div class="call-text">
+                <h4>Call to action! It's time!</h4>
+                <br>
+                <p class="call-subtext">Sign up for our product by clicking that button right over there!</p>
+            </div>
+            <div class="last-section-right">
+                <button class="last-button">Sign up</button>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copyright &copy; The Odin Project 2021</p>
+    </div>
+
 </body>
 
 </html>
